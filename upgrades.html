@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=1230px, initial-scale=1.0">
 	<meta name="author" content="tezos-example.netlify.app">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250328164300">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250328191059">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicons/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicons/32x32.webp">
@@ -64,13 +64,10 @@
 										<a href="docs" class="menu__sub-link">Documentation</a>
 									</li>
 									<li class="menu__sub-item">
-										<a href="upgrades" class="menu__sub-link">Tezos upgrades</a>
+										<a href="upgrades" class="menu__sub-link">Upgrades Timeline</a>
 									</li>
 									<li class="menu__sub-item">
 										<a href="smart-rollups" class="menu__sub-link">Smart Rollups</a>
-									</li>
-									<li class="menu__sub-item">
-										<a href="https://tezos.com/position-paper.pdf" class="menu__sub-link">Position Paper</a>
 									</li>
 								</ul>
 							</li>
@@ -78,7 +75,7 @@
 								<button type="button" class="menu__button-open" aria-label="Open a submenu">Learn</button>
 								<ul class="menu__sub-list">
 									<li class="menu__sub-item">
-										<a href="about" class="menu__sub-link">What is Tezos?</a>
+										<a href="about" class="menu__sub-link">Tezos Introduction</a>
 									</li>
 									<li class="menu__sub-item">
 										<a href="how-to-use" class="menu__sub-link">How to use tezos?</a>
@@ -100,10 +97,11 @@
 		<main class="page">
 			<section class="hero-additional hero-additional--upgrades">
 				<div class="hero-additional__container">
-					<h1 class="hero-additional__title title">Upgrades on Tezos</h1>
+					<div class="hero-additional__suptitle">TEZOS UPGRADES TIMELINE</div>
+					<h1 class="hero-additional__title title">A Wallet That Grows with You</h1>
 					<div class="hero-additional__text text">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tempora cupiditate dicta! Iure dignissimos quo assumenda facilis expedita cupiditate cum facere maiores.
+							Tezos Wallet is built on a foundation of continuous improvement. With each upgrade, our wallet evolves to integrate the latest features and innovations, ensuring that it remains at the forefront of blockchain technology. Join us in shaping the future of secure, scalable, and efficient digital wallets, while enjoying the benefits of cutting-edge advancements.
 						</p>
 					</div>
 					<div class="hero-additional__links">
@@ -119,110 +117,122 @@
 					<img src="img/upgrades/bg.webp" alt="Background image" itemprop="bg image">
 				</div>
 			</section>
-			<section class="update-history" id="upgrades">
-				<div class="update-history__container">
-					<h2 class="update-history__title title title--fz24">Here is a list of Tezos updates from 2025 to 2021 in reverse chronological order:</h2>
-					<div class="update-history__blocks">
-						<div class="update-history__block block-update-history" id="last-release">
-							<h3 class="block-update-history__release">Wellington — January 2025</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>New Consensus Algorithm:</strong> Implemented an updated version of the consensus algorithm to increase transaction speed and reduce latency, improving overall network performance.</li>
-								<li class="block-update-history__item"><strong>Lower Storage Costs:</strong> Optimized data storage mechanisms, reducing the costs and ensuring better long-term sustainability for Tezos.</li>
-								<li class="block-update-history__item"><strong>Advanced Security Features:</strong> Further strengthened network security, focusing on preventing attacks and ensuring the integrity of transactions and data.</li>
+			<section class="upgrades">
+				<div class="upgrades__container">
+					<article class="upgrades__article article" itemscope itemtype="https://schema.org/Article">
+						<h2 class="article__title title" itemprop="headline">Quebec</h2>
+						<div class="article__text" itemprop="description">
+							<p>
+								The 17th Tezos protocol upgrade brings a reduced block time of 8 seconds and 16-second finality, along with an enhanced staking mechanism and strengthened economics through further improvements to the 'Adaptive Issuance' system.
+							</p>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="upgrades-history" id="upgrades">
+				<div class="upgrades-history__container">
+					<!-- <h2 class="upgrades-history__title title title--fz24">Here is a list of Tezos updates from 2025 to 2021 in reverse chronological order:</h2> -->
+					<div class="upgrades-history__blocks">
+						<div class="upgrades-history__block block-upgrades-history" id="last-release">
+							<h3 class="block-upgrades-history__release">Wellington — January 2025</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>New Consensus Algorithm:</strong> Implemented an updated version of the consensus algorithm to increase transaction speed and reduce latency, improving overall network performance.</li>
+								<li class="block-upgrades-history__item"><strong>Lower Storage Costs:</strong> Optimized data storage mechanisms, reducing the costs and ensuring better long-term sustainability for Tezos.</li>
+								<li class="block-upgrades-history__item"><strong>Advanced Security Features:</strong> Further strengthened network security, focusing on preventing attacks and ensuring the integrity of transactions and data.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Vitoria — July 2024</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>AI Integration:</strong> Added AI algorithms to analyze transactions more efficiently and improve network predictions.</li>
-								<li class="block-update-history__item"><strong>Layer 2 Optimization:</strong> Focused on optimizing Layer 2 solutions for greater scalability and efficiency, reducing overall costs and enhancing speed.</li>
-								<li class="block-update-history__item"><strong>New Interoperability Features:</strong> Increased interoperability with other blockchains and platforms, enhancing the overall ecosystem of Tezos.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Vitoria — July 2024</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>AI Integration:</strong> Added AI algorithms to analyze transactions more efficiently and improve network predictions.</li>
+								<li class="block-upgrades-history__item"><strong>Layer 2 Optimization:</strong> Focused on optimizing Layer 2 solutions for greater scalability and efficiency, reducing overall costs and enhancing speed.</li>
+								<li class="block-upgrades-history__item"><strong>New Interoperability Features:</strong> Increased interoperability with other blockchains and platforms, enhancing the overall ecosystem of Tezos.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Tokyo — April 2024</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Improved Token Support:</strong> Introduced new functionalities for interacting with tokens, enhancing the versatility and use cases for Tezos.</li>
-								<li class="block-update-history__item"><strong>Advanced Security Measures:</strong> Strengthened the network's resistance to potential attacks and bolstered overall security.</li>
-								<li class="block-update-history__item"><strong>Optimized Layer 2 Compatibility:</strong> Improved the integration with Layer 2 solutions to increase scalability and reduce transaction costs.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Tokyo — April 2024</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Improved Token Support:</strong> Introduced new functionalities for interacting with tokens, enhancing the versatility and use cases for Tezos.</li>
+								<li class="block-upgrades-history__item"><strong>Advanced Security Measures:</strong> Strengthened the network's resistance to potential attacks and bolstered overall security.</li>
+								<li class="block-upgrades-history__item"><strong>Optimized Layer 2 Compatibility:</strong> Improved the integration with Layer 2 solutions to increase scalability and reduce transaction costs.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Paris — January 2024</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Network Governance Enhancements:</strong> Strengthened the on-chain governance system, improving the voting process and enabling more seamless decision-making within the community.</li>
-								<li class="block-update-history__item"><strong>Smart Contract Enhancements:</strong> Further improvements to the functionality of smart contracts, making them more efficient and user-friendly for developers.</li>
-								<li class="block-update-history__item"><strong>Enhanced User Experience:</strong> Streamlined the process for interacting with the network, simplifying the overall user experience.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Paris — January 2024</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Network Governance Enhancements:</strong> Strengthened the on-chain governance system, improving the voting process and enabling more seamless decision-making within the community.</li>
+								<li class="block-upgrades-history__item"><strong>Smart Contract Enhancements:</strong> Further improvements to the functionality of smart contracts, making them more efficient and user-friendly for developers.</li>
+								<li class="block-upgrades-history__item"><strong>Enhanced User Experience:</strong> Streamlined the process for interacting with the network, simplifying the overall user experience.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Osaka — September 2023</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>dApp and Smart Contract Enhancements:</strong> Expanding the functionality for decentralized applications (dApps) and improving the performance of smart contracts on the network.</li>
-								<li class="block-update-history__item"><strong>Security Upgrades:</strong> Introduced further security improvements to protect users and assets from potential vulnerabilities.</li>
-								<li class="block-update-history__item"><strong>Optimized Gas Fees:</strong> Continued efforts to reduce gas costs, making the network even more efficient for users.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Osaka — September 2023</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>dApp and Smart Contract Enhancements:</strong> Expanding the functionality for decentralized applications (dApps) and improving the performance of smart contracts on the network.</li>
+								<li class="block-upgrades-history__item"><strong>Security Upgrades:</strong> Introduced further security improvements to protect users and assets from potential vulnerabilities.</li>
+								<li class="block-upgrades-history__item"><strong>Optimized Gas Fees:</strong> Continued efforts to reduce gas costs, making the network even more efficient for users.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Nairobi — July 2023</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Lower Transaction Fees:</strong> Reduced transaction fees, improving the overall network performance and making Tezos more cost-effective for users.</li>
-								<li class="block-update-history__item"><strong>New Token Support:</strong> Increased compatibility with various new tokens, broadening the ecosystem and allowing for more projects to launch on Tezos.</li>
-								<li class="block-update-history__item"><strong>Improved Security Features:</strong> Enhancements aimed at strengthening the security of transactions and network integrity.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Nairobi — July 2023</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Lower Transaction Fees:</strong> Reduced transaction fees, improving the overall network performance and making Tezos more cost-effective for users.</li>
+								<li class="block-upgrades-history__item"><strong>New Token Support:</strong> Increased compatibility with various new tokens, broadening the ecosystem and allowing for more projects to launch on Tezos.</li>
+								<li class="block-upgrades-history__item"><strong>Improved Security Features:</strong> Enhancements aimed at strengthening the security of transactions and network integrity.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Ithaca — December 2022</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Tezos Upgrade to Increase Smart Contract Efficiency:</strong> Introduced enhancements that made smart contracts more efficient and easier to develop.</li>
-								<li class="block-update-history__item"><strong>Cost-Effective Transactions:</strong> Continued reducing transaction costs, further making Tezos an attractive platform for decentralized applications.</li>
-								<li class="block-update-history__item"><strong>Community-Centric Improvements:</strong> Enhanced governance processes, enabling smoother participation and decision-making within the Tezos community.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Ithaca — December 2022</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Tezos Upgrade to Increase Smart Contract Efficiency:</strong> Introduced enhancements that made smart contracts more efficient and easier to develop.</li>
+								<li class="block-upgrades-history__item"><strong>Cost-Effective Transactions:</strong> Continued reducing transaction costs, further making Tezos an attractive platform for decentralized applications.</li>
+								<li class="block-upgrades-history__item"><strong>Community-Centric Improvements:</strong> Enhanced governance processes, enabling smoother participation and decision-making within the Tezos community.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Granada — November 2022</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>New Governance Model:</strong> A revamped governance model was introduced, allowing for more efficient decision-making and quicker adoption of protocol upgrades.</li>
-								<li class="block-update-history__item"><strong>Optimized Layer 2 Scaling:</strong> Focused on scalability improvements and Layer 2 integration to make Tezos more efficient for high-traffic applications.</li>
-								<li class="block-update-history__item"><strong>Security Upgrades:</strong> Implemented stronger security features to protect user data and ensure the integrity of transactions.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Granada — November 2022</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>New Governance Model:</strong> A revamped governance model was introduced, allowing for more efficient decision-making and quicker adoption of protocol upgrades.</li>
+								<li class="block-upgrades-history__item"><strong>Optimized Layer 2 Scaling:</strong> Focused on scalability improvements and Layer 2 integration to make Tezos more efficient for high-traffic applications.</li>
+								<li class="block-upgrades-history__item"><strong>Security Upgrades:</strong> Implemented stronger security features to protect user data and ensure the integrity of transactions.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Florence — May 2022</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>More Efficient Consensus Algorithm:</strong> Introduced an optimized consensus algorithm to improve the performance and scalability of Tezos.</li>
-								<li class="block-update-history__item"><strong>Decentralization Enhancements:</strong> Focused on further decentralizing the network, giving more participants the ability to influence decision-making and protocol upgrades.</li>
-								<li class="block-update-history__item"><strong>Smart Contract Improvements:</strong> Provided more flexibility and optimization for developers building on Tezos.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Florence — May 2022</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>More Efficient Consensus Algorithm:</strong> Introduced an optimized consensus algorithm to improve the performance and scalability of Tezos.</li>
+								<li class="block-upgrades-history__item"><strong>Decentralization Enhancements:</strong> Focused on further decentralizing the network, giving more participants the ability to influence decision-making and protocol upgrades.</li>
+								<li class="block-upgrades-history__item"><strong>Smart Contract Improvements:</strong> Provided more flexibility and optimization for developers building on Tezos.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">10. Eureka — March 2022</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Protocol Refinements:</strong> Several optimizations were made to the Tezos protocol, enhancing speed and reducing overhead.</li>
-								<li class="block-update-history__item"><strong>Security Enhancements:</strong> Strengthened the security of the platform, focusing on protecting users from emerging threats.</li>
-								<li class="block-update-history__item"><strong>Easier dApp Development:</strong> Enhanced tools and frameworks for developers to easily build decentralized applications on Tezos.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">10. Eureka — March 2022</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Protocol Refinements:</strong> Several optimizations were made to the Tezos protocol, enhancing speed and reducing overhead.</li>
+								<li class="block-upgrades-history__item"><strong>Security Enhancements:</strong> Strengthened the security of the platform, focusing on protecting users from emerging threats.</li>
+								<li class="block-upgrades-history__item"><strong>Easier dApp Development:</strong> Enhanced tools and frameworks for developers to easily build decentralized applications on Tezos.</li>
 							</ol>
 						</div>
-						<div class="update-history__block block-update-history">
-							<h3 class="block-update-history__release">Babylon — December 2021</h3>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item"><strong>Improved Staking Mechanism:</strong> Tezos improved its staking mechanism, making staking more accessible and rewarding for users.</li>
-								<li class="block-update-history__item"><strong>Enhanced Governance Features:</strong> Introduced an improved governance model to facilitate more efficient upgrades and better community participation.</li>
-								<li class="block-update-history__item"><strong>Protocol Upgrades for Smart Contracts:</strong> Enhanced the smart contract capabilities of Tezos, allowing for more complex and efficient contract execution.</li>
+						<div class="upgrades-history__block block-upgrades-history">
+							<h3 class="block-upgrades-history__release">Babylon — December 2021</h3>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item"><strong>Improved Staking Mechanism:</strong> Tezos improved its staking mechanism, making staking more accessible and rewarding for users.</li>
+								<li class="block-upgrades-history__item"><strong>Enhanced Governance Features:</strong> Introduced an improved governance model to facilitate more efficient upgrades and better community participation.</li>
+								<li class="block-upgrades-history__item"><strong>Protocol Upgrades for Smart Contracts:</strong> Enhanced the smart contract capabilities of Tezos, allowing for more complex and efficient contract execution.</li>
 							</ol>
 						</div>
 
-						<!-- <div class="update-history__block block-update-history">
-							<div class="block-update-history__release">Release 1.10.10</div>
-							<div class="block-update-history__label">New features:</div>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item">Lorem, ipsum dolor aliquid non </li>
-								<li class="block-update-history__item">Lorem, ipsum dolor aliquid non </li>
+						<!-- <div class="upgrades-history__block block-upgrades-history">
+							<div class="block-upgrades-history__release">Release 1.10.10</div>
+							<div class="block-upgrades-history__label">New features:</div>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item">Lorem, ipsum dolor aliquid non </li>
+								<li class="block-upgrades-history__item">Lorem, ipsum dolor aliquid non </li>
 							</ol>
-							<div class="block-update-history__label">Bug fixes:</div>
-							<ol class="block-update-history__list">
-								<li class="block-update-history__item">Lorem, ipsum dolor aliquid non </li>
-								<li class="block-update-history__item">Lorem, ipsum dolor aliquid non </li>
+							<div class="block-upgrades-history__label">Bug fixes:</div>
+							<ol class="block-upgrades-history__list">
+								<li class="block-upgrades-history__item">Lorem, ipsum dolor aliquid non </li>
+								<li class="block-upgrades-history__item">Lorem, ipsum dolor aliquid non </li>
 							</ol>
 						</div> -->
 					</div>
@@ -301,7 +311,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20250328164300"></script>
+	<script src="js/app.min.js?_v=20250328191059"></script>
 </body>
 
 </html>
