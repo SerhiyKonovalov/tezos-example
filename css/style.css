@@ -380,7 +380,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateY(0)
 }
 .tabs__header._tab-active .tabs__title {
-  background: #d6d6d6
+  background: #dadada
 }
 .tabs__title {
   box-sizing: border-box;
@@ -1332,6 +1332,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-bottom: 1.5625rem
 }
 .hero__text {
+  max-width: 32.5rem;
   text-wrap-style: balance;
   line-height: 1.8;
   color: #fff
